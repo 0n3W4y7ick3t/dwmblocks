@@ -2,7 +2,7 @@
 static const Block blocks[] = {
   /*Icon*/  /*Command*/  /*Update Interval*/  /*Update Signal*/
   {"",  "cat /tmp/recordingicon 2>/dev/null",  0,  9},
-  {"",  "sb-music",         0,  11 },
+  {"",  "sb-playbacks",         0,  11 },
   /* {"",  "sb-torrent",      20,   7 }, */
   /* {"",  "sb-mailbox",     180,  12 }, */
   {"",  "sb-nettraf",       1,  16 },
@@ -17,4 +17,3 @@ static const Block blocks[] = {
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
 static char *delim = " ";
-
